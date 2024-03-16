@@ -3,6 +3,8 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  
+
 }
 
 body {
@@ -11,6 +13,7 @@ body {
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  color: brown;
 }
 
 .wrapper {
@@ -83,4 +86,15 @@ a:hover {
   .wrapper {
     width: 95%;
   }
+}
+h1,h2, h3, p {
+  font-size: 26px;
+}
+body {
+  background-image: none;
+  background-color: chocolate;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wrapper {
+  background: -moz-radial-gradient(margin-bottom);
 }
